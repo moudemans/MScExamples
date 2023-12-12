@@ -5,4 +5,5 @@
 | DegreesOfSeperation | Yes            |                                       |   |   |
 | PageRank            | Yes            |                                       |   |   |
 | PageRank2           | No             | Requires custom package to read input |   |   |
+| PageRank3           | Yes            | 2 versions                            |   |   |
 | TwitterBFS          | Yes            |                                       |   |   |
