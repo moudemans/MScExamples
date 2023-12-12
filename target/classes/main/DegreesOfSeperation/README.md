@@ -1,0 +1,1 @@
+COLLECTED FROM : https://github.com/YgorCFR/spark-samples/blob/master/ProjetoScala/src/main/scala/DegreesOfSeparation.scala
