@@ -8,7 +8,7 @@ import scala.collection.mutable.ArrayBuffer
 object PageRank {
   def main(args: Array[String]): Unit = {
     val sc = new SparkContext(new SparkConf().setMaster("local").setAppName("PageRank"))
-    val file = sc.textFile("src/main/PageRank3/relation2.txt")
+    val file = sc.textFile("src/main/PageRank3/relation3.txt")
     val initFile = file.flatMap { _.split(",").toList }
     //<2, 1> <2, 4> <3, 2>....
     file.foreach(println)

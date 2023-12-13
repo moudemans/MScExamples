@@ -42,7 +42,7 @@ object BFSGraphXSuperheroes {
     val graphVertices = names.flatMap(parseNames)
 
     //Getting Graph data
-    val graphData = sc.textFile("src/main/BFSGraphX/Marvel-graph.txt")
+    val graphData = sc.textFile("src/main/BFSGraphX/Marvel-graph2.txt")
 
     //Getting the edges
     val graphEdges = graphData.flatMap(makeEdges)
